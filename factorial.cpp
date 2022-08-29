@@ -8,7 +8,7 @@ int factorial(int n){
         cout<<"Renter a number ,only positive numbers are allowed."<<endl;
     }
     else if(n!=1){
-        cout<<"Recursive function called for: "<<endl;
+        cout<<"Recursive function called for: "<<i<<endl;
         
 	return(n * factorial(n-1));
     }
