@@ -5,10 +5,14 @@ int factorial(int n){
     int i=0;
     i++;
     if(n<0){
-        printf("Re-enter a number, only positive numbers are allowed.");
+        //cout<<"Renter a number ,only positive numbers are allowed."<<endl;
+        printf("Renter a number ,only positive numbers are allowed.\n");
+        return -1;
+
     }
     else if(n!=1){
-        cout<<"Recursive function called for: "<<i<<endl;
+        //cout<<"Recursive function called for: "<<i<<endl;
+        printf("Recursive function called for: %d\n",i);
         
         return(n * factorial(n-1));
     }
