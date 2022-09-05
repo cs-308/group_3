@@ -7,9 +7,7 @@ int factorial(int n){
     if(n<0){
         //cout<<"Renter a number ,only positive numbers are allowed."<<endl;
         printf("Renter a number ,only positive numbers are allowed.\n");
-
-        //cout<<"Renter a number ,only positive numbers are allowed."<<endl;
-        printf("Renter a number ,only positive numbers are allowed.\n");
+        return -1;
 
     }
     else if(n!=1){
