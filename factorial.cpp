@@ -11,9 +11,6 @@ int factorial(int n){
 
     }
     else if(n!=1){
-        //cout<<"Recursive function called for: "<<i<<endl;
-        printf("Recursive function called for: %d\n",i);
-        
         return(n * factorial(n-1));
     }
     else return 1;

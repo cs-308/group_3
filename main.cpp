@@ -4,8 +4,7 @@ using namespace std;
 int main(){
     print_hello();
     cout<< endl;
-    printf("\n");
     printf("The factorial of 5 is %d\n", factorial(5));
-    //cout<<"The factorial of 5 is "<< factorial(5)<< endl;
+    printf("The GCD of 56 and 98 is %d \n", gcd(25, 35));    
     return 0;
 }
